@@ -78,7 +78,7 @@ This project demonstrates:
 
 GitHub: https://github.com/your-github-username
 
-Email: your-email@example.com
+Email: dangermrkings2@gmail.com
 
 ---
 
