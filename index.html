@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Temperature Converter</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1 class="title">🌡 Temperature Converter</h1>
+
+<p class="subtitle">Convert temperatures instantly</p>
+
+<input
+type="text"
+id="temp"
+placeholder="Enter Temperature">
+
+<select id="unit">
+
+<option value="C">Celsius (°C)</option>
+
+<option value="F">Fahrenheit (°F)</option>
+
+<option value="K">Kelvin (K)</option>
+
+</select>
+
+<button onclick="convertTemp()">
+Convert
+</button>
+
+<p id="error"></p>
+
+<div class="result">
+
+<h3>Results</h3>
+
+<p id="celsius"></p>
+
+<p id="fahrenheit"></p>
+
+<p id="kelvin"></p>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
